@@ -62,12 +62,16 @@ h1 {
     text-align: center;
 }
 
+section > h3 {
+    color: white;
+}
+
 section {
     margin-top: 8rem; /* white space around different sections */
     /* height: 100vh; */
 }
 
-section > h2, section > h5 {
+section > h2, section > h5, section > h3 {
     text-align: center;
     color: var(--color-light);
 }
