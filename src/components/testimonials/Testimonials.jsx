@@ -5,15 +5,15 @@ import AVTR2 from '../../assets/testimonial_2.jpg'
 import AVTR3 from '../../assets/testimonial_3.jpg'
 import AVTR4 from '../../assets/testimonial_4.jpg'
 
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+
+import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 const data = [
   {
@@ -23,7 +23,7 @@ const data = [
   },
   {
     avatar: AVTR2,
-    name: 'Marie',
+    name: 'Josh',
     review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium possimus distinctio itaque accusamus, nobis voluptatem quae sint quo aliquid quibusdam mollitia id cupiditate nihil, aliquam magni sit beatae autem repudiandae?'
   },
   {
@@ -33,7 +33,7 @@ const data = [
   },
   {
     avatar: AVTR4,
-    name: 'Josh',
+    name: 'Marie',
     review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium possimus distinctio itaque accusamus, nobis voluptatem quae sint quo aliquid quibusdam mollitia id cupiditate nihil, aliquam magni sit beatae autem repudiandae?'
   }
 ]
@@ -46,12 +46,12 @@ const Testimonials = () => {
 
       <Swiper className="container testimonials__container" 
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
-      slidesPerView={3}
-      navigation
+      modules={[ Pagination ]}
+      spaceBetween={40}
+      slidesPerView={1}
+      
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+      
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
       >
