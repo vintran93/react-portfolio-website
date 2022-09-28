@@ -17,7 +17,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Piano Tracker',
+    title: 'Piano Sheet Music Tracker',
     github: 'https://github.com/vintran93/piano_tracker',
     demo: 'https://www.youtube.com/watch?v=aufhejTUZ94&t=321s'
   },
