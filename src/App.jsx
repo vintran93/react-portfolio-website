@@ -12,8 +12,8 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <>
-      <Nav />
       <Header />
+      <Nav />
       <About />
       <Experience />
       <Services />
