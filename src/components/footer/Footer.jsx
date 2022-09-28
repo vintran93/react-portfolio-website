@@ -16,18 +16,18 @@ const Footer = () => {
         <li><a href="/#testimonials">Testimonials</a></li>
         <li><a href="/#contacts">Contacts</a></li>
       </ul>
-        <div className="footer__socials">
-          <a href="https://facebook.com" target='_blank'><BsFacebook /></a>
-          <a href="https://instagram.com" target='_blank'><BsInstagram /></a>
-          <a href="https://youtube.com" target='_blank'><BsYoutube /></a>
-        </div>
+      <div className="footer__socials">
+        <a href="https://facebook.com" target='_blank' rel="noreferrer" ><BsFacebook /></a>
+        <a href="https://instagram.com" target='_blank' rel="noreferrer" ><BsInstagram /></a>
+        <a href="https://youtube.com" target='_blank' rel="noreferrer"><BsYoutube /></a>
+      </div>
 
-        <div className="footer__copyright">
-          <small>
-            &copy; Vincent Tran 2022. All rights reserved.
-          </small>
-        </div>
-      
+      <div className="footer__copyright">
+        <small>
+          &copy; Vincent Tran 2022. All rights reserved.
+        </small>
+      </div>
+
     </footer>
   )
 }

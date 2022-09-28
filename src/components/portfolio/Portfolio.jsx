@@ -4,7 +4,7 @@ import IMG1 from '../../assets/hiking app.jpg'
 import IMG2 from '../../assets/piano tracker.png'
 import IMG3 from '../../assets/investing 9.jpg'
 import IMG4 from '../../assets/javascript_project.png'
-import IMG5 from '../../assets/react_logo.png'
+import IMG5 from '../../assets/healthcare-image.jpg'
 // import IMG6 from '../../assets/baby_vincent.jpg.JPG'
 const data = [
   {
@@ -38,9 +38,9 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'TBA',
-    github: '',
-    demo: ''
+    title: 'Doctor Appointments App',
+    github: 'https://github.com/vintran93/appointments_backend',
+    demo: 'https://www.youtube.com/watch?v=5p5KyLYtrqw&t=205s'
   }
 ]
 
@@ -53,7 +53,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({ id, image, title, github, demo }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -68,11 +68,11 @@ const Portfolio = () => {
             )
           })
         }
-        
-        
-        
 
-         {/* <article className="portfolio__item">
+
+
+
+        {/* <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt='' />
             <h3>Portfolio title</h3>
@@ -134,7 +134,7 @@ const Portfolio = () => {
         </article>   */}
 
 
-      </div> 
+      </div>
     </section>
   )
 }

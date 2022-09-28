@@ -12,11 +12,11 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_6v1maoa', 'template_5e6beum', form.current, 'P3kxRuvqyKE5LQtW-')
+    emailjs.sendForm('service_7awr5va', 'template_5e6beum', form.current, 'WsXGrF6kaN5Aj6vNA')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
     e.target.reset();
   };
@@ -29,7 +29,7 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon"/>
+            <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>vincentran93@gmail.com</h5>
             <a href="mailto:vincentran93@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
