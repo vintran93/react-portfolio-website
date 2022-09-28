@@ -17,9 +17,9 @@ const Footer = () => {
         <li><a href="/#contacts">Contacts</a></li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com" target='_blank' rel="noreferrer" ><BsFacebook /></a>
-        <a href="https://instagram.com" target='_blank' rel="noreferrer" ><BsInstagram /></a>
-        <a href="https://youtube.com" target='_blank' rel="noreferrer"><BsYoutube /></a>
+        <a href="https://www.facebook.com/vincent.tran.714" target='_blank' rel="noreferrer" ><BsFacebook /></a>
+        <a href="https://www.instagram.com/vincentran93/" target='_blank' rel="noreferrer" ><BsInstagram /></a>
+        <a href="https://www.youtube.com/channel/UC8uZKwgE3LghNowKImQ1x1A" target='_blank' rel="noreferrer"><BsYoutube /></a>
       </div>
 
       <div className="footer__copyright">
