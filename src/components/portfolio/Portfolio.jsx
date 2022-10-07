@@ -32,7 +32,7 @@ const data = [
     id: 4,
     image: IMG4,
     title: 'Movie Quotes App',
-    github: 'https://github.com/vintran93/movie_quotes',
+    github: 'https://github.com/vintran93/movie-quotes-client',
     demo: 'https://www.youtube.com/watch?v=b022FTS3iYg&t=112s'
   },
   {
