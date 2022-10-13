@@ -40,7 +40,7 @@ const About = () => {
         </div>
 
         <p>
-          I have a passion for coding and love to learn new things. I am a curious learner and want to help people solve real world problems.
+          I have a passion for coding and love to learn new things. I am a curious learner and want to help people solve real world problems. I come from a background of healthcare and insurance.
         </p>
 
         <a href="#contact" className="btn btn-primary">Contact Me</a>
