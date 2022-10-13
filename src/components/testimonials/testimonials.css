@@ -13,12 +13,12 @@
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 90%;
-    margin: 0 auto 3rem; 
+    margin: 0 auto 3rem;
     border: 0.4rem solid var(--color-bg-primary-varient);
 }
 
 .testimonial {
-    background: var(--color-bg-primary-varient);
+    background: white;
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
@@ -38,8 +38,9 @@
     .container.testimonials__container {
         width: 60%;
     }
-    
+
 }
+
 /*** MEDIA QUERIES (SMALL DEVICES) ***/
 @media screen and (max-width: 600px) {
     .container.testimonials__container {
