@@ -1,6 +1,6 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/MedRisk_Logo.jpg'
+import AVTR1 from '../../assets/MedRiskLogo.jpg'
 import AVTR2 from '../../assets/testimonial_2.jpg'
 import AVTR3 from '../../assets/testimonial_3.jpg'
 import AVTR4 from '../../assets/testimonial_4.jpg'
